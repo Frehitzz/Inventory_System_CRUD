@@ -17,8 +17,8 @@ function sendResetEmail($userEmail, $token) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Gmail SMTP server
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'fritzharlydegamo@gmail.com'; // Your Gmail
-        $mail->Password   = 'erehrutllkltdvel'; // App password, NOT Gmail password
+        $mail->Username   = ''; // Your Gmail
+        $mail->Password   = ''; // App password, NOT Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
